@@ -1,127 +1,14 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Puna me tabela dhe forma ne HTML</title>
-    </head>
-    <body>
-        <h3>Detajet e udhetimit tim ne NYC</h3>
-        <form method="get" action="http://www.randyconnolly.com/tests/process.php">
-            <fieldset>
-            <legend>Detajet e nje fotografie ne New York</legend>
-            <table >
-                <tr>
-                    <td colspan="2">
-                        <p>
-                            <label>Emri i fotografise:</label><br/>
-                            <input type="text" name="title"
-                                   placeholder="Shkruani emrin tuaj..."/>
-                        </p>
-                        <p>
-                            <label>Pershkrimi i fotografise:</label><br/>
-                            <textarea name="description" rows="5" cols="60">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Projekti</title>
+<h1>Njohje me Github </h1>
+<h2>Project</h2>
 
-                            </textarea>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>
-                            <label>Kontinenti:</label><br/>
-                            <select name="continent">
-                                <option>Zgjedhni kont.</option>
-                                <option>Evropaa</option>
-                                <option>Azia</option>
-                                <option>Afrika</option>
-                                <option>Amerika</option>
+  </head>
+  <body>
+<p>Projekti</p>
 
-                            </select>
-                        </p>
-                        <p>
-                            <label>Shteti:</label><br/>
-                            <select name="country">
-                                <option>Zgjedhni shtetin</option>
-                                <option>Kosova</option>
-                                <option>Shqiperia</option>
-                                <option>Gjermania</option>
-                                <option>Kina</option>
-                                <option>Anglia</option>
-                                <option>USA</option>
-
-                                
-                            </select>
-                        </p>
-                        <p>
-                            <label>Qytetet:</label><br/>
-                            <input type="text" name="cities" list="qytetet"/>
-                            <datalist id="qytetet">
-                                <option>Zgjedhni qytetin...</option>
-                                <option>Mitrovica</option>
-                                <option>Tirana</option>
-                                <option>Prizreni</option>
-                                <option>Maribori</option>
-                                <option>Koln</option>
-                                <option>Prishtina</option>
-                            </datalist>
-                        </p>
-                    </td>
-                    <td>
-                        <div class="box">
-                            <label>Te drejtat autoriale?</label><br/>
-                            <input type="radio" name="autori" value="1">Te gjitha te drejtat e rezervuara<br/>
-                            <input type="radio" name="autori" value="2">Te drejtat e perbashketa<br/>
-
-                        </div>
-                         <div class="box">
-                            <label>Kreativiteti</label><br/>
-                            <input type="checkbox" name="cc" value="1">Autentike<br/>
-                            <input type="checkbox" name="cc" value="2">Komerciale<br/>
-                            <input type="checkbox" name="cc" value="3">Jo komerciale<br/>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <label>Pranoj kushtet e kontrates ne lidhje me licencen e fotos....</label>
-                        <input type="checkbox" name="accept"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>
-                            <label>Vleresoni foton:</label>
-                            <input type="number" min="1" max="10" name="rate"/>
-                        </p>
-                        <p>
-                            <label>Ngjyra:</label>
-                            <input type="color" name="color"/>
-                        </p>
-                    </td>
-                    <td>
-                        <p>
-                            <label>Data:</label><br/>
-                            <input type="date" name="date"/>
-                        </p>
-                        <p>
-                            <label>Koha:</label><br/>
-                            <input type="time" name="time"/>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <input type="submit" value="Dergo"/>
-                        <input type="reset" value="Pastro formen"/>
-
-                    </td>
-                </tr>
-
-            </table>
-
-
-
-
-            </fieldset>
-        </form>
     </body>
 </html>
