@@ -1,0 +1,108 @@
+header
+{	
+	background-color: #24221C;
+}
+
+header p
+{
+	background-color: #24221C;
+	color: white;
+}
+
+header form
+{	
+	text-align: right;
+	align-self: right;
+}
+
+header h1
+{
+	background-color: white; 
+	font-size: 80px;
+	text-align: center;
+    color: #94741C;
+    margin: 0 0 0 0;
+    padding: 0.5em 0 0 0;
+}
+
+header h5
+{
+	background-color: white;
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	margin: 0 0  0.5em 0;
+	padding: 1em 0 0 0;
+}
+
+nav
+{
+	background-color: black;
+	font-size: 1.2em;
+	text-align: center;
+	padding: 1em 0 1em 0;
+}
+
+nav ul li
+{	
+	list-style: none;
+	display: inline;
+	border-right:  solid #FFFFFF;
+	font-family: Tahoma;
+}
+
+nav ul li:first-child
+{
+	border-left: solid #FFFFFF;
+}
+
+header a
+{
+	color: white;
+	padding: 20px 20px;
+	text-decoration: none;
+}
+
+
+header a:hover
+{
+	color: #94741C;
+
+}
+
+
+
+
+table.lastTable
+{
+	background-color:  #24221C;
+	text-align: left;
+	width: 100%;
+	
+
+
+}
+
+table.lastTable thead td
+{
+	font-size: 30px;
+	font-family: cursive;
+	color: white;
+	padding: 0 2em 0 0.7em;
+}
+
+table.lastTable tbody td{
+color: white;
+padding: 0 2em 0 1.5em;}
+
+table.lastTable tbody a{
+	color: #94741C; 
+	text-decoration: none;
+
+}
+
+.border{
+	border-bottom: solid 1px;
+}
+
+}
