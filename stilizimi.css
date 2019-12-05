@@ -71,6 +71,35 @@ header a:hover
 }
 
 
+section
+{
+	min-height: 490px;
+	background-color: #0D0D0D;
+}
+section h1
+{
+	color: #FFFFFF;
+	font-size: 75px;
+	text-align: right;
+	padding-top: 40px;
+	padding-right: 30px;
+	
+}
+aside#side
+{
+	color: #FFFFFF;
+	float: right;
+	width: 20%;
+	font-size: 150%;
+	font-family: "Times New Roman", serif;
+	padding-right: 30px;
+}
+span#viti
+{
+	color: #969845;
+}
+
+
 
 
 table.lastTable
