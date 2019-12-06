@@ -99,6 +99,53 @@ span#viti
 	color: #969845;
 }
 
+section#art
+{
+min-height: 400px;
+background-color: #EFEFEF;
+padding-left: 30px;
+padding-top: 150px;
+}
+
+.box h2{
+font-size: 250%;
+font-family: serif;
+font-weight: 150;
+color: #797979;
+border-bottom: solid 1px #CDCDCD;
+}
+
+.box{
+padding-left: 2em;
+float: left;
+width: 30%;
+
+}
+.box ul li{
+color: #969845;
+}
+.box p{
+	font-family: Palatino, URW Palladio L, serif	;
+	color: #979797;
+	font-size: 110%;
+}
+
+.button1{
+	color: #969845;
+	background-color: #999999;
+	border-radius: 10px;
+	font-size: 140%;
+	float: right;
+	font-weight: bold;
+	text-transform: uppercase;
+padding: 10px 10px 10px 10px ;
+}
+
+
+
+
+
+
 
 
 
