@@ -179,6 +179,41 @@ table.lastTable tbody a{
 
 .border{
 	border-bottom: solid 1px;
+
+
 }
+div#s1{
+	background-color: #080808;
+	color: white;
+	height: 40px;
+	font-size: 13px;
+
+
+}
+
+a.a1{
+
+	text-decoration: none;
+	color: white;
+
+}
+a.a2{
+	text-decoration: none;
+	color:#94741C;
+}
+
+
+
+.fl-left{
+	float: left;
+	padding-left: 1em;
+
+}
+
+
+
+.fl-right{
+	float: right;
+	padding-right: 1em;
 
 }
