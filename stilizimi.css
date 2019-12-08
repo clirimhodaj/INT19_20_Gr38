@@ -101,11 +101,12 @@ span#viti
 
 section#art
 {
-min-height: 400px;
-background-color: #EFEFEF;
-padding-left: 30px;
-padding-top: 150px;
+
+background-color: white;
+padding: 30px 30px 30px 30px;
+margin: 0 30px 60px 30px;
 }
+
 
 .box h2{
 font-size: 250%;
@@ -131,8 +132,8 @@ color: #969845;
 }
 
 .button1{
-	color: #969845;
-	background-color: #999999;
+	color: #a2a651;
+	background-color: #f3f5e9;
 	border-radius: 10px;
 	font-size: 140%;
 	float: right;
@@ -140,13 +141,6 @@ color: #969845;
 	text-transform: uppercase;
 padding: 10px 10px 10px 10px ;
 }
-
-
-
-
-
-
-
 
 
 table.lastTable
