@@ -1,5 +1,5 @@
 header
-{	
+{
 	background-color: #24221C;
 }
 
@@ -10,14 +10,14 @@ header p
 }
 
 header form
-{	
+{
 	text-align: right;
 	align-self: right;
 }
 
 header h1
 {
-	background-color: white; 
+	background-color: white;
 	font-size: 80px;
 	text-align: center;
     color: #94741C;
@@ -44,7 +44,7 @@ nav
 }
 
 nav ul li
-{	
+{
 	list-style: none;
 	display: inline;
 	border-right:  solid #FFFFFF;
@@ -73,7 +73,7 @@ header a:hover
 
 section
 {
-	min-height: 490px; 
+	min-height: 490px;
 	background-color: #0D0D0D;
 }
 section h1
@@ -83,7 +83,7 @@ section h1
 	text-align: right;
 	padding-top: 40px;
 	padding-right: 30px;
-	
+
 }
 aside#side
 {
@@ -106,6 +106,7 @@ background-color: white;
 padding: 30px 30px 30px 30px;
 
 margin: 0 30px 60px 30px;
+
 }
 
 .box h2{
@@ -124,6 +125,11 @@ width: 30%;
 }
 .box ul li{
 color: #969845;
+list-style-type: none;
+}
+li:before
+{
+	content: "\000BB ";
 }
 .box p{
 	font-family: Palatino, URW Palladio L, serif	;
@@ -133,7 +139,7 @@ color: #969845;
 
 .button1{
 	color: #a2a651;
-	background-color: #f3f5e9;
+	background-color: #b0b3a2;
 	border-radius: 10px;
 	font-size: 140%;
 	float: right;
@@ -155,7 +161,7 @@ table.lastTable
 	background-color:  #24221C;
 	text-align: left;
 	width: 100%;
-	
+
 
 
 }
@@ -173,7 +179,7 @@ color: white;
 padding: 0 2em 0 1.5em;}
 
 table.lastTable tbody a{
-	color: #94741C; 
+	color: #94741C;
 	text-decoration: none;
 
 }
