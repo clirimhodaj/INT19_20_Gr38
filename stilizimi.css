@@ -31,7 +31,7 @@ header h5
 	font-size: 15px;
 	text-align: center;
 	color: black;
-	margin: 0 0  0.5em 0;
+	margin: 0 0 0 0;
 	padding: 1em 0 0 0;
 }
 
@@ -73,7 +73,7 @@ header a:hover
 
 section
 {
-	min-height: 490px;
+	min-height: 490px; 
 	background-color: #0D0D0D;
 }
 section h1
@@ -104,9 +104,9 @@ section#art
 
 background-color: white;
 padding: 30px 30px 30px 30px;
+
 margin: 0 30px 60px 30px;
 }
-
 
 .box h2{
 font-size: 250%;
@@ -141,6 +141,13 @@ color: #969845;
 	text-transform: uppercase;
 padding: 10px 10px 10px 10px ;
 }
+
+
+
+
+
+
+
 
 
 table.lastTable
