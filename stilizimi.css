@@ -94,7 +94,8 @@ aside#side
 	font-family: "Times New Roman", serif;
 	padding-right: 30px;
 }
-span#viti
+
+#viti
 {
 	color: #969845;
 }
@@ -146,6 +147,15 @@ li:before
 	font-weight: bold;
 	text-transform: uppercase;
 padding: 10px 10px 10px 10px ;
+}
+
+#tom{
+	font-weight: 600;
+
+}
+#figura{
+position: relative;
+top: 15px;
 }
 
 
