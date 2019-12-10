@@ -32,7 +32,7 @@ header h5
 	text-align: center;
 	color: black;
 	margin: 0 0 0 0;
-	padding: 1em 0 0 0;
+	padding: 5em 0 0 0;
 }
 
 nav
@@ -79,9 +79,9 @@ section
 section h1
 {
 	color: #FFFFFF;
-	font-size: 75px;
+	font-size: 55px;
 	text-align: right;
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-right: 30px;
 
 }
@@ -90,12 +90,12 @@ aside#side
 	color: #FFFFFF;
 	float: right;
 	width: 20%;
-	font-size: 150%;
+	font-size: 200%;
 	font-family: "Times New Roman", serif;
-	padding-right: 30px;
+	padding-right: 350px;
+	padding-top: 10px;
 }
-
-#viti
+span#viti
 {
 	color: #969845;
 }
@@ -133,6 +133,7 @@ li:before
 	content: "\000BB ";
 }
 .box p{
+
 	font-family: Palatino, URW Palladio L, serif	;
 	color: #979797;
 	font-size: 110%;
@@ -149,15 +150,6 @@ li:before
 padding: 10px 10px 10px 10px ;
 }
 
-#tom{
-	font-weight: 600;
-
-}
-#figura{
-position: relative;
-top: 15px;
-}
-
 
 
 
@@ -168,6 +160,7 @@ top: 15px;
 
 table.lastTable
 {
+
 	background-color:  #24221C;
 	text-align: left;
 	width: 100%;
