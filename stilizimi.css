@@ -3,16 +3,27 @@ header
 	background-color: #24221C;
 }
 
+header div
+{
+	background-color: #403D3D; 
+	height: 37px;
+	width: 100%;
+	 font-size: 14px;
+}
+
 header p
 {
-	background-color: #24221C;
-	color: white;
+	background-color: #403D3D;
+	color: #DAD8E3;
+	float: left;
+	padding-left: 10px;
 }
 
 header form
 {
-	text-align: right;
-	align-self: right;
+	float: right;
+	padding-top: 13px; 
+	padding-right: 10px; 
 }
 
 header h1
