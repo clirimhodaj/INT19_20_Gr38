@@ -35,6 +35,12 @@ header h5
 	padding: 5em 0 0 0;
 }
 
+input[type=search] {
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
 nav
 {
 	background-color: black;
