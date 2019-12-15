@@ -3,27 +3,16 @@ header
 	background-color: #24221C;
 }
 
-header div
-{
-	background-color: #403D3D; 
-	height: 37px;
-	width: 100%;
-	 font-size: 14px;
-}
-
 header p
 {
-	background-color: #403D3D;
-	color: #DAD8E3;
-	float: left;
-	padding-left: 10px;
+	background-color: #24221C;
+	color: white;
 }
 
 header form
 {
-	float: right;
-	padding-top: 13px; 
-	padding-right: 10px; 
+	text-align: right;
+	align-self: right;
 }
 
 header h1
@@ -46,12 +35,6 @@ header h5
 	padding: 5em 0 0 0;
 }
 
-input[type=search] {
-  background-color: white;
-  background-image: url('searchicon.png');
-  background-repeat: no-repeat;
-  padding-left: 20px;
-}
 nav
 {
 	background-color: black;
@@ -128,9 +111,9 @@ margin: 0 30px 60px 30px;
 }
 
 .box h2{
-font-size: 250%;
+font-size: 200%;
 font-family: serif;
-font-weight: 150;
+font-weight: bold;
 color: #797979;
 border-bottom: solid 1px #CDCDCD;
 }
@@ -166,14 +149,6 @@ li:before
 	text-transform: uppercase;
 padding: 10px 10px 10px 10px ;
 }
-
-
-
-
-
-
-
-
 
 table.lastTable
 {
