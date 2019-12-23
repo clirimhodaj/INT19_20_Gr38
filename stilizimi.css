@@ -14,15 +14,29 @@ header form
 	text-align: right;
 	align-self: right;
 }
+input[type=search]
+{
+	border: 1px solid #3e3e3e;
+	border-radius: 10px;
+  width: 250px;
+	background-color:#3E3E3E;
+	color:#aaaaaa;
+	padding: 8px;
+}
+input[placeholder=]
+{
+	color: white;
+}
 
 header h1
 {
 	background-color: white;
-	font-size: 80px;
+	font-size: 100px;
+	font-weight: normal;
 	text-align: center;
-    color: #94741C;
-    margin: 0 0 0 0;
-    padding: 0.5em 0 0 0;
+  color: #969845;
+  margin: 0 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 header h5
@@ -32,42 +46,56 @@ header h5
 	text-align: center;
 	color: black;
 	margin: 0 0 0 0;
-	padding: 5em 0 0 0;
+	padding: 0px 0 19px 0;
 }
 
-nav
+#nav
 {
-	background-color: black;
-	font-size: 1.2em;
+	background-color: #222222;
+	font-size: 1em;
 	text-align: center;
 	padding: 1em 0 1em 0;
+
+}
+
+nav ul
+{
+    text-align: center;
+    margin: 5px;
+	 	height: auto;
 }
 
 nav ul li
 {
-	list-style: none;
+  list-style: none;
 	display: inline;
-	border-right:  solid #FFFFFF;
-	font-family: Tahoma;
+	font-family: "Times New Roman";
 }
 
 nav ul li:first-child
 {
-	border-left: solid #FFFFFF;
+
+
 }
 
 header a
 {
-	color: white;
+	color: #aaaaaa;
 	padding: 20px 20px;
 	text-decoration: none;
+	font-size: 1.3em;
+	border-right: solid 1px #aaaaaa;
+}
+
+header a:first
+{
+	border-left: solid 1px #aaaaaa;
 }
 
 
 header a:hover
 {
-	color: #94741C;
-
+	color: #969845;
 }
 
 
