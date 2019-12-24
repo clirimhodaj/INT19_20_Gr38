@@ -23,9 +23,17 @@ input[type=search]
 	color:#aaaaaa;
 	padding: 8px;
 }
-input[placeholder=]
+input[placeholder]
 {
 	color: white;
+}
+button[type=search]
+{
+border:1px solid ;
+padding: 0;
+position: absolute;
+top: 5px;
+right: 30px;
 }
 
 header h1
