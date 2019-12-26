@@ -5,6 +5,33 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="stilizimi.css">
         <link rel="stylesheet" href="risetimi.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="jquery-1.11.2.min.js"></script>
+<script>
+
+$(function(){
+
+  $("h1").click(function(){
+    $("#name").hide();
+  });
+
+	$(".tel").click(function(){
+		$("#surname").hide();
+	});
+
+	});
+
+</script>
+
+<script>
+$(document).ready(function(){
+  $(".headd").click(function(){
+    $("#nav").slideToggle("slow");
+	$("#s1").text("Kliko per ta mbyllur");
+
+  });
+});
+</script>
 	<style>
 		body{
 			background-color: #EFEFEF;
@@ -16,15 +43,16 @@
 	<div class="" style="background-color: #333333; height: 35px;">
 
 
-			<p style="float: left; padding-top: 7px; background-color: #333333; color:#676767;margin-left: 15px;">Tel: xxxxx xxxxxxx  | Mail: info@domain.com
+		<p style="float: left; padding-top: 7px; background-color: #333333; color:#676767;margin-left: 15px;">Tel: xxxxx xxxxxxx  | Mail: info@domain.com <span id="s1" style="position:absolute;background:green;top:8px;left:44em;color:white;">klikoni per shfaqjen e menus&euml</span>
 
-			</p>
-			<form style="float: right;">
-				<input type="search" name="search" placeholder="SEARCH TERM HERE" style="  "><i class="fas fa-search"></i><button type="search" name="search"><img src="search.png" width="20px" height="20px"></button>
-			</form>
-			<div style="clear: both;">
+		</p>
+		<form style="float: right;">
+			<input type="search" name="search" placeholder="SEARCH TERM HERE" style="  "><button id="submiti" type="search" name="search"><img src="search.png" width="20px" height="20px"></button>
+		</form>
+		<p id="name">klikoni ne app team</p><p id="surname">klikoni ne iphone</p>
+		<div style="clear: both;">
 
-			</div>
+		</div>
 	</div>
 
 	<div id="nav">
@@ -48,8 +76,8 @@
 
 <section style="padding-bottom: 100px; margin-top: 0; margin-bottom: 150px;">
 
-		<img src="iphone5.png" alt="" width="18%" height="55%" style="margin-left: 37px; margin-top: 50px; margin-bottom: -500px;float: left;">
-		<img src="iphone5.png" alt="" width="18%" height="55%" style="margin-left: 80px;margin-top: 206px; margin-bottom: -500px;float: left;transform: rotateZ(90deg);">
+		<img class="tel" src="iphone5.png" alt="" width="18%" height="55%" style="margin-left: 37px; margin-top: 50px; margin-bottom: -500px;float: left;">
+		<img class="tel" src="iphone5.png" alt="" width="18%" height="55%" style="margin-left: 80px;margin-top: 206px; margin-bottom: -500px;float: left;transform: rotateZ(90deg);">
 
 	<div class="">
 		<h1><strong>"Çdo gjë bëhet më e lehtë, </strong>
