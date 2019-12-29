@@ -107,6 +107,43 @@ header a:hover
 	color: #969845;
 }
 
+ul ul{
+  position: absolute;
+  min-width: 190px;
+  display: none;
+
+}
+ul ul li a{
+  font-size: 25px;
+  text-decoration: none;
+  color: #aaaaaa;
+  padding: 5px;
+
+}
+ul ul li a:hover{
+  color: #969845;
+}
+ul ul li{
+  display: block;
+  border-bottom: solid 1px #aaaaaa;
+}
+ul ul li:first-child{
+  border-top: solid 1px #aaaaaa;
+
+}
+ul li:hover ul {
+  background: #222222;
+  display: block;
+  margin-left: -5px;
+  margin-top: 19.5px;
+}
+
+nav>ul>li{
+display: inline-block;
+}
+ul li i{
+  padding-left: 10px;
+}
 
 section
 {
