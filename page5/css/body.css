@@ -50,11 +50,14 @@
 
 }
 
-
+.div4{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	margin:0;
+}
 
 .div3{
-	padding-left: 44.3px;
-	float: left;
 	width: 30%;
 	background-color: #e8ede6;
 	font-size: 25px;
@@ -80,3 +83,10 @@
 
 }
 
+#paragraph5{	
+	font-size: 40px;
+	text-align: center;
+	align-self: center;
+	padding-left: 170px;
+	padding-right: 170px;
+}
