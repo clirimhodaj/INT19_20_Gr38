@@ -59,3 +59,42 @@ body{
 	color: #4d4044;
 }
 
+#btn1{
+ 	background-color: #e8ede6;
+ 	font-size: 20px;
+ 	color: #f76031;
+ 	border-width: 0;
+}
+
+#btn1:hover{
+	color: #4d4044;	
+}
+
+#Outer1{
+	margin-top: 30px;
+	background-color: white;
+	width: 1200px;
+	min-height: 400px;
+	text-align: center;
+	display: none;
+	margin-left: 700px;	
+}
+
+#paragraph4{
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-left: auto;
+    margin-right: auto;
+    width: 35em;
+    font-size: 10em;
+    text-align: left;
+    padding-top: 50px;
+}
+
+#paragraph5{
+	margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 15px;
+}
