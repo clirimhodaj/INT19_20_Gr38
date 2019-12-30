@@ -144,7 +144,11 @@ display: inline-block;
 ul li i{
   padding-left: 10px;
 }
-
+.img-wrap{width: 100%}
+.img-wrap img{width: 100%;padding: 10px;}
+#aboutus h2 {color: white;}
+#aboutus p {color: white;}
+#aboutus li {color: white;}
 section
 {
 	min-height: 490px;
@@ -225,28 +229,28 @@ li:before
 }
 
 #little{
-	background-color: #aed14d; 
+	background-color: #aed14d;
 	color: white;
-	float: right; 
-	width: 400px; 
-	height: 100px; 
-	margin-top: -200px; 
-	margin-right: 40px; 
-	padding: 25px 20px 0 20px; 
-	border-radius: 20px; 
+	float: right;
+	width: 400px;
+	height: 100px;
+	margin-top: -200px;
+	margin-right: 40px;
+	padding: 25px 20px 0 20px;
+	border-radius: 20px;
 	box-shadow: 0 60px 10px -40px grey;
 }
 
 #little a{
-	text-decoration: none; 
-	color: white; 
+	text-decoration: none;
+	color: white;
 	font-size: 29px;
 }
 
 #little img{
-	width: 55px; 
-	height: 85px; 
-	float: left;  
+	width: 55px;
+	height: 85px;
+	float: left;
 	padding-right: 40px;
 }
 table.lastTable
