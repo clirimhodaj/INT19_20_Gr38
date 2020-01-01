@@ -1,0 +1,85 @@
+.section9{
+
+  color: white;
+  margin: 0;
+  font-size: 17px;
+}
+.section9 a{
+  text-decoration: none;
+  color: #bdd44a;
+
+}
+
+p.parag9{
+  font-size: 32px;
+  font-family: sans-serif;
+  padding-left: 1.1em;
+}
+
+.boxx{
+padding-left: 1em;
+float: left;
+width: 28%;
+padding-right: 1.5em;
+background-color: #535457;
+min-height: 340px;
+
+}
+.boxx1{
+padding-left: 2em;
+float: left;
+width: 35%;
+background-color: #535457;
+min-height: 340px;
+margin: 0;
+ }
+
+.fa {
+    padding: 25px;
+    font-size: 22px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    border-radius: 48%;
+    background: #262729;
+}
+
+.fa-facebook {
+    background: #262729;
+  color: white;}
+
+.fa-tumblr {
+    background: #262729;
+    color: white;
+}
+
+.fa-linkedin {
+  background: #262729;
+    color: white;
+}
+div#s1{
+  color: white;
+  height: 40px;
+  font-size: 13px;
+}
+a.a1{
+
+  text-decoration: none;
+  color: white;
+
+}
+a.a2{
+  text-decoration: none;
+  color:#94741C;
+}
+
+.fl-left{
+  float: left;
+  padding-left: 1em;
+}
+
+.fl-right{
+  float: right;
+  padding-right: 1em;
+}

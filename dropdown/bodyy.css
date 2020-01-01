@@ -1,0 +1,188 @@
+/*servis i tel dhe pc*/
+
+#sone{
+  padding: 12em 0 12em 0;
+  height: 300px;
+  background-image: url(apple_processor_cpu_wood_iron_30915_2560x1080.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  /*processor_cpu_upgrade_installation_chip_robot_5633_1920x1200.jpg*/
+/*smartphone_facebook_instagram_twitter_111106_2560x1080.jpg*/
+/*66701442_1209588519165529_2707558812306374656_n.jpg*/
+}
+/*
+#sone:before {
+  content: '';
+  background: rgba(75, 75, 93, 0.85);
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  top: 50px;
+  left: 0;
+}
+*/
+#sone h1{
+  font-size: 350%;
+  text-align: center;
+  color: white;
+  position: relative;
+  font-family: "Gill Sans", sans-serif;
+  margin-bottom: 24px;
+}
+
+#sone p {
+  font-size: 1.25em;
+  margin-bottom: 1.75em;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+
+.button1{
+text-align: center;
+color: white;
+font-size: 125%;
+text-transform: uppercase;
+font-family: serif;
+border: solid 1.2px;
+border-radius: 10px 10px 10px 10px;
+border-color: white;
+text-decoration: none;
+padding: 10px 20px;
+text-align: center;
+transition: 0.5s;
+}
+
+.button1:hover{
+  color: #650F52;
+  background: white;
+  transition: 0.5s;
+}
+
+ul.actions li{
+  margin-top: 70px;
+  text-align: center;
+}
+
+
+
+
+#stwo{
+  height: 500px;
+  background: #D3D2D9;
+  padding: 2em 5em 2em 15em;
+}
+
+div.box
+{
+  width: 25%;
+  float: left;
+  margin-top: 80px;
+  padding-left: 40px;
+  text-align: center;
+
+}
+
+  .box h3
+  {
+    margin-top: 25px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.35em;
+    color: #263B47;
+   }
+
+.box p
+{
+/*  font-family: "Open Sans", Arial, Helvetica, sans-serif;*/
+  font-family: FontiIm;
+  color: #44413D;
+  margin-bottom: 15px;
+}
+
+  .box img
+  {
+    border: 1px solid grey;
+    width:190px;
+    height: 150px;
+
+  }
+
+    .box a{
+    position: relative;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    display: inline-block;
+    transition: 1s;
+    color: #520F65;
+    visibility: hidden;
+    transform: translateY(-40px);
+    opacity: 0;
+    font-family: "Poppins",sans-serif;
+
+  }
+
+  .box:hover a{
+    visibility: visible;
+    transition: 1s;
+    transform: translateY(0);
+    opacity: 1;
+
+  }
+
+  .box a:hover{
+    font-size: 1.05em;
+    background: #fff;
+  }
+
+@font-face {
+ font-family: FontiIm;
+ src: url(fontawesome-webfont.eot);
+}
+
+  #sthree{
+    background :linear-gradient(to right,#BF95CB, #44294B) ;/*#263B47*//*#E84921*/
+
+  }
+.box1{
+  color: white;
+  padding-bottom: 80px;
+}
+
+  .box1 h1{
+  font-size: 2em;
+  padding-top: 80px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 0.5;
+}
+
+  .box1 p{
+  text-align: center;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+  cite{
+  display: block;
+  text-align: center;
+  font-style: normal;
+}
+
+ cite.author {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+cite.company {
+  font-size: 1em;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,110 @@
+header
+{
+	background-color: #24221C;
+
+}
+
+header p
+{
+	background-color: #24221C;
+	color: white;
+}
+
+header form
+{
+	text-align: right;
+	align-self: right;
+}
+input[type=search]
+{
+	border: 1px solid #3e3e3e;
+	border-radius: 10px;
+  width: 250px;
+	background-color:#3E3E3E;
+	color:#aaaaaa;
+	padding: 8px;
+	margin-right: 20px;
+}
+input[placeholder=]
+{
+	color: white;
+}
+button[type=search]
+{
+border:1px solid ;
+padding: 0;
+position: absolute;
+top: 5px;
+right: 30px;
+}
+
+/*
+header h1
+{
+	background-color: white;
+	font-size: 100px;
+	font-weight: normal;
+	text-align: center;
+  color: #969845;
+  margin: 0 0 0 0;
+  padding: 10px 0 0 0;
+}
+
+header h5
+{
+	background-color: white;
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	margin: 0 0 0 0;
+	padding: 0px 0 19px 0;
+}
+*/
+#nav
+{
+  background-color: #222222;
+	font-size: 1em;
+	text-align: center;
+	padding: 1em 0 1em 0;
+ /* display: none; */
+	}
+
+#nav>nav> ul
+{
+    text-align: center;
+    margin: 5px;
+	 	height: auto;
+
+}
+
+nav ul li
+{
+  list-style: none;
+	display: inline;
+	font-family: "Times New Roman";
+}
+
+nav ul li:first-child
+{
+
+}
+
+header>div>nav>ul>li>a
+{
+	color: #aaaaaa;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 1.3em;
+	border-right: solid 1px #aaaaaa;
+}
+
+header a:first
+{
+	border-left: solid 1px #aaaaaa;
+}
+
+
+header>div>nav>ul>li>a:hover
+{
+	color: #969845;
+}
