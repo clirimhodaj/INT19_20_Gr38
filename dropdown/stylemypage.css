@@ -1,7 +1,9 @@
 ul ul{
   position: absolute;
   min-width: 190px;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
 
 }
 ul ul li a{
@@ -25,6 +27,9 @@ ul ul li:first-child{
 ul li:hover ul {
   background: #222222;
   display: block;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
   margin-left: -5px;
   margin-top: 19.5px;
 }
