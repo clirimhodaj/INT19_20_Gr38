@@ -2,56 +2,96 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="stilizimi.css">
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="page2.css">
+	<title>Team App</title>
+	<link rel="stylesheet"  href="stilizimi.css">
 	<link rel="stylesheet" href="risetimi.css">
+	<link rel="stylesheet" href="text.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="jquery-1.11.2.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  $("#flip").click(function(){
+	    $("#nav").slideToggle("slow");
+		$("#flip").text("Kliko per ta mbyllur MENUN");
+
+	  });
+	});
+$(document).ready(function(){
+  $(".asd").mouseenter(function(){
+    alert("Nese klikoni do kaloni te APPSTORE!");
+  });
+});
+	</script>
 	<style>
+	#panel,#flip
+	{
+	padding:5px;
+	text-align:center;
+	background-color:#3e3e3e;
+	border:solid 1px black;
+	color: #969845;
+	}
+	#panel
+	{
+	padding:50px;
+	display:none;
+	}
 		body{
+
 			background-color: #EFEFEF;
 		}
-	</style>
+.asd {
+
+}
+</style>
 </head>
 <body>
-	<header>
-	<div class="" style="background-color: #333333; height: 35px;">
+	<div id="flip">Kliko per ta hapur panelin MENUN</div>
+<header>
+<div class="" style="background-color: #333333; height: 35px;">
 
 
-			<p style="float: left; padding-top: 7px; background-color: #333333; color:#676767;margin-left: 15px;">Tel: xxxxx xxxxxxx  | Mail: info@domain.com
+		<p style="float: left; padding-top: 7px; background-color: #333333; color:#676767;  ">Tel: xxxxx xxxxxxx  | Mail: info@domain.com
 
-			</p>
-			<form style="float: right;">
-				<input type="search" name="search" placeholder="SEARCH TERM HERE" style="  "><i class="fas fa-search"></i><button type="search" name="search"><img src="search.png" width="20px" height="20px"></button>
-			</form>
-			<div style="clear: both;">
+		</p>
+		<form style="float: right;">
+			<input type="search" name="search" placeholder="SEARCH TERM HERE" style="  "><button type="search" name="search"><img src="search.png" width="20px" height="20px"></button>
+		</form>
+		<div style="clear: both;">
 
-			</div>
-	</div>
+		</div>
+</div>
 
-	<div id="nav">
-		<nav>
-			<ul>
-				<li><a href="index.html">HOMEPAGE</a></li>
-				<li><a href="page2.html">TUTORIAL</a></li>
-				<li><a href="page3.html">FULL WIDTH</a></li>
-				<li><a href="page4.html">DROPDOWN</a></li>
-				<li><a href="page5.html">LINK TEXT</a></li>
-			</ul>
-		</nav>
-	</div>
+<div id="nav">
+	<nav>
+		<ul>
+			<li><a href="index.html">HOMEPAGE</a></li>
+			<li><a href="page2.html">STYLE DEMO</a></li>
+			<li><a href="page3.html">APP SHOWCASE</a></li>
+			<li><a href="page4.html">DROPDOWN</a></li>
+			<li><a href="page5.html">LINK TEXT</a></li>
+		</ul>
+	</nav>
+</div>
 
 
-		<h1>APP TEAM</h1>
-		<h5>SPECIALISTS FOR CREATING THE BEST APPS AROUND</h5>
-
-	</header>
-	<br><br><div style="background-image: url('background.jpg');">
-		<h3><strong><font size="10"><br><center><font color="lightgrey">Si ta downloadojmë këtë APP?</font></font></strong></h3>
-			<h2>QUWDHQWDUOHDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD<br>
-				asssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</h2>
-	<img src="banner.png" alt="" width="30%" height="70%" style="margin-top: 50px;float: center; margin-left:50px; margin-bottom:80px;">
-
+</header>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-7">
+					<div class="img-wrap">
+	<img src="banner.png">
+</div>
+</div>
+<div class="col-sm-5">
+<h1>Si ta downloadojme kete APP?</h1>
+<p5>Step 1</p5>
+</div>
+</div>
+</div>
+</section>
 
 
 
