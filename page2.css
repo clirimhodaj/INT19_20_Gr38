@@ -5,11 +5,23 @@ section img{
 p5{
 	font-style: oblique;
 	color: white;
-	font-size: 23px;}
+	font-size: 22.9px;
+  font-weight: 600;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
 h1{
   font-weight: bold;
   color: lightgrey;
   font-size: 30px;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
 }
 img:hover {
   -webkit-transform: scaleX(-1);
@@ -49,4 +61,8 @@ img:hover {
 #myBtn:hover {
   background: #ddd;
   color: black;
+}
+
+.img-wrap{
+
 }
