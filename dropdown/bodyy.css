@@ -1,5 +1,46 @@
 /*servis i tel dhe pc*/
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+
+
+#warning{
+  position: absolute;
+  width: 500px;
+  border-radius:8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  padding: 10px;
+  background: #dddddd;
+  display: none;
+}
+
+.fa-check{
+  color:green;
+  margin-bottom: 15px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#warning h1{
+  font-size: 25px;
+  font-family: Montserrat;
+  margin-bottom: 20px;
+}
+
+.close{
+  color: white;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+  background: blue;
+  display: inline-block;
+  border-radius: 4px;
+  font-family: Montserrat;
+  margin-bottom: 10px;
+}
+
 #sone{
   padding: 12em 0 12em 0;
   height: 300px;
@@ -211,5 +252,9 @@ cite.company {
 
 #svg{
   margin-top: 20px;
-  transform: scale(1.1,1.1);
 }
+#svg:hover{
+  transform: rotateX(360deg);
+  transition: 3s;
+}
+
