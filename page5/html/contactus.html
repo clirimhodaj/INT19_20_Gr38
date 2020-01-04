@@ -2,11 +2,14 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="leadership.css">
+	<link rel="stylesheet" type="text/css" href="contactus.css">
 	<link rel="stylesheet" type="text/css" href="header.css">
 	<link rel="stylesheet" type="text/css" href="footer.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+	<script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+    	<script src="contactus.js"> </script> 
+	
+</head>
   
   <body>
 
@@ -37,9 +40,45 @@
 		</nav>
 	</div>
 
-	</header>
-    
-  <footer>
+</header>
+
+<canvas id="myCanvas" width="600" height="200" style="border: none; margin-top: 100px; margin-left: 350px;"></canvas>
+
+<script>
+	var c = document.getElementById("myCanvas");
+	var ctx = c.getContext("2d");
+
+	ctx.font = '50px Arial ';
+
+	ctx.fillText('Contact us',170,110)
+
+	ctx.moveTo(450,10);
+	ctx.lineTo(580,100);
+	ctx.stroke();
+
+	ctx.moveTo(150,10);
+	ctx.lineTo(20,100);
+	ctx.stroke();
+
+
+	ctx.moveTo(20,100);
+	ctx.lineTo(150,190);
+	ctx.stroke();
+
+	ctx.moveTo(580,100);
+	ctx.lineTo(450,190);
+	ctx.stroke();
+
+	ctx.moveTo(150,10);
+	ctx.lineTo(450,10);
+	ctx.stroke();
+
+	ctx.moveTo(150,190);
+	ctx.lineTo(450,190);
+	ctx.stroke();
+</script>	  
+	  
+<footer>
 
 <section class="section9 ">
 <div class="div4">
