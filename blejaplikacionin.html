@@ -45,6 +45,31 @@
             
         	
 	</div><!--End of wrap-->
+		<br>
+		<br><br><br><br>
+		<p>Vlereso aplikacionin nga 5 deri ne 10:</p>
+
+<input id="in" type="text">
+<button type="button" onclick="Gabim()">Test Input</button>
+<p id="message"></p>
+
+<script>
+function Gabim() {
+  var message, x;
+  message = document.getElementById("message");
+  message.innerHTML = "";
+  x = document.getElementById("in").value;
+  try { 
+    if(x == "")  throw "e zbrazet";
+    if(isNaN(x)) throw "nuk eshte numer";
+    if(x > 10)   throw "shume i madh ";
+    if(x < 5)  throw "shume i vogel";
+  }
+  catch(err) {
+    message.innerHTML = "Input " + err;
+  }
+}
+</script>
 
 </body>
 </html>
