@@ -6,6 +6,8 @@
 	<link rel="stylesheet"  href="stilizimi.css">
 	<link rel="stylesheet" href="risetimi.css">
 	<link rel="stylesheet" href="text.css">
+	<link rel="stylesheet" href="footer.css">
+  <script src="https://kit.fontawesome.com/55fb307a8a.js" crossorigin="anonymous"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="jquery-1.11.2.min.js"></script>
 	<script>
@@ -44,10 +46,18 @@ $(document).ready(function(){
 
 }
 </style>
+<script>
+function myFunction() {
+  var str = document.getElementById("demo").innerHTML;
+  var txt = str.replace("Hockey","Hockeey");
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
 </head>
 <body>
-	<div id="flip">Kliko per ta hapur panelin MENUN</div>
 <header>
+	<div id="flip">Kliko per ta hapur panelin MENUN</div>
+
 <div class="" style="background-color: #333333; height: 35px;">
 
 
@@ -78,7 +88,6 @@ $(document).ready(function(){
 </header>
 
 <div class="page-content">
-	<div class="wrapper">
 		<div class="subheader">
 			<div class="bounds">
 				<h2 class="subheader__title">App Showcase</h2>
@@ -167,121 +176,97 @@ $(document).ready(function(){
 				<li class="app__thumbnail">
 					<a href="#">
 						<img class="app__thumbnail__image" src="hockey-community.png" width="100" alt="Hockey Community">
-						<h3 class="app_title">Hockey Community</h3>
+						<h3 id="demo" class="app_title">Hockey Community</h3>
 					</a>
 					<div class="app__author">by Oki Technologies Inc.</div>
 				</li>
+				<h3 style="margin-left:200px;">Zhvendos Hockey me Hockeey</h3>
+
+				<button style="margin-left:20px;" onclick="myFunction()">Provo</button>
 		</div>
 	</div>
-</div>
 
 
-	<section id="art">
 
+	<footer>
 
-		<article class="general">
+    <section class="section9 ">
 
-			<div class="box">
-				<h2><span style="float: left;margin-right:6px;"><img src="info.png" width="70px" height="80px"alt=""></span >  Të gjitha informatat e duhura rreth nesh </h2>
-				<br><br>
-				<p>Çasja dhe kontakti i të gjithë personave të interesuar rreth APP-Team, është bërë i mundur nëpërmjet disa metodave: </p>
-				<blockquote >
+    <div class="div4">
+    <div class="boxx" >
+    <p class="parag9">Quick links!</p>
+    <nav>
+    <ul style="list-style: none; ">
+    	<li><a href="#">Link 1</a></li><hr>
+    	<li><a href="#">Link 2</a></li><hr>
+    	<li><a href="#">Link 3</a></li><hr>
+    	<li><a href="#">Link 4</a></li><hr>
+    	<li><a href="#">Link 5</a></li><hr>
 
+    </ul>
+    </nav>
+    </div>
 
-				<ul>
-					<li> Kontakti nëpërmjet telefonit</li>
-					<li> Nëpërmjet adresës së lartcekur</li>
-					<li> Nëpërmjet email-it zyrtar të kompanisë</li>
-					<li> Nëpërmjet postës shtetërore</li>
-				</ul>
+    <div class="boxx" >
+    	<p class="parag9" style="padding-left: 0">Lets socialise!</p>
+    	<p>Keep up to date with all the latest information and uptades by following  us on any of the social</p>
+      <i class="fab fa-facebook-f"></i>
+    	<i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    	<p>Our RSS Feed can be found <a href="#" onclick="pop()">here</a></p>
+    </div>
 
-				</blockquote>
-				<p>Poashtu, shumë informata rreth APP-Team mund të gjenden edhe jashtë këtij website.</p>
-				<span type="button" name="button" class="button1">Lexo më shumë</span>
-			</div>
+    <div class="boxx1">
+    	<p class="parag9" style="padding-left: 0">Why Not Contact Us Today!</p>
+    	<form name="formaIme">
+    	<table>
+    		<tr>
+    			<td colspan="2">Emri:</td>
+    			<td colspan="2">Email:</td>
+    		</tr>
+    		<tr>
+    			<td colspan="2"><input type="text" name="name" style="background-color: #524e46; color: white;border-width: 0"></td>
+    			<td colspan="2"><input type="email" name="email" style="background-color: #524e46; color: white; border-width: 0"></td>
+    		</tr>
+    		<tr></tr>
+    		<tr>
+    			<td>Message:</td>
+    		</tr>
+    		<tr>
+    			<td colspan="4"><textarea style="width: 340px;background-color: #524e46; color: white; border-width: 0"></textarea></td>
+    		</tr>
 
-			<div class="box">
-				<h2><span style="float: left;margin-right:6px;"><img src="saypeople.png" width="70px" height="80px"alt=""></span> Çfarë thonë përdoruesit për punën tonë </h2>
-				<br><br>
-				<p> <span id="tom">Arben Gashi</span> - CEO</p>
-				<p>Synimi për një punë të lartë në organizatë. Ai vendos standarde shumë të larta, i vetëdijshëm se kjo do të sjellë vëmendje dhe promovim. Gjithmonë kontribuon fuqishëm në përpjekjet e ekipit, qoftë si udhëheqës ose anëtar i ekipit. Kupton vetë dobësitë e forta të të tjerëve, dhe shkon te njerëzit e duhur për ndihmë. Në mënyrë simpatike i ndihmon të tjerët të adresojnë dobësitë e tyre.</p><br><br><br><br><br><br>
-					<span type="button" name="button" class="button1">Shiko këtë projekt</span>
-				</div>
+        <tr>
+          <script type="text/javascript">
+            var c=0;
+            function pop(){
+              if(c==0){
+                document.getElementById("warning").style.display="block";
+                c=1;
+              }
+              else {
+                document.getElementById("warning").style.display="none";
+                c=0;
+              }
+            }
+          </script>
+    			<td><input id="submit"   onclick="validateForm()" type="submit" name="submit" value="Submit" style="width: 80px; height: 23px;"></td>
+    			<td><input id="reset"  type="reset" name="reset" value="Reset" style="width: 80px; height: 23px;"></td>
+    		</tr>
 
-				<div class="box">
-					<h2><span style="float: left;margin-right:6px;"><img src="movie.png" width="70px" height="80px"alt=""></span> Tutorial mbi përdorimin e aplikacionit tonë! </h2>
-					<br>
+    	</table>
+    	</form>
+    </div>
+    </section>
+    <section>
+    <div id="s1" style="background-color: #080808">
+    	 <p class="fl-left">Copyright &copy; 2013 <a href="https://www.os-templates.com/" class="a1">Domain Name</a> - All Rights Reserved</p>
+        <p class="fl-right">Template by <a href="https://www.os-templates.com/" class="a1" title="Free Website Templates">OS Templates</a></p>
+    </div>
+    </div>
+    </section>
 
-					<p>
-						<video width="430" height="300" controls>
-								<source src="movie.mp4" type="video/mp4">
-								Your browser does not support the video tag.
-						</video>
-
-					</p>
-
-				</div>
-
-			</article>
-
-
-		</section>
-
-
-	<footer >
-	<table class="lastTable">
-	<thead>
-		<tr>
-			<td>Linqe referuese!</td>
-			<td>Rrjetet sociale ku ne gjendemi!</td>
-			<td colspan="2">Mos ngurroni të na kontaktoni!</td>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td class="border"><a href="#">Link 1</a></td>
-			<td rowspan="5">Ju mund të na përcjellni  <br> me të gjithë të rejat e fundit <br>dhe informacioneve nëpërmjet faqeve tona <br>sociale më poshtë: <br> <a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDRt4Wsh3TYikS3xYc2LcjKxHh8YbvCa8Et2cYhIFO-UtyAh2d&s" width="30" height="30"></a>
-			<a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc9SbaW_-AW8lB2FEExvLk-JFXXE0tJCa1vWyaxtWCY_RRiLRK&s" width="30" height="30"></a>
-			<a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnRQzXcAQoHmeWpjwRw0MWlSGVW6YJm1tIG3OR0Juo-kf-xVixrw&s" width="30" height="30"></a>
-
-			</td>
-			<td rowspan="2">Emri: <br> <input type="text" name="name"> </td>
-			<td rowspan="2">Email: <br> <input type="text" name="email"></td>
-		</tr>
-		<tr>
-			<td class="border"><a href="#">Link 2</a></td>
-		</tr>
-		<tr>
-			<td class="border"><a href="#">Link 3</a></td>
-			<td rowspan="4" colspan="2">Mesazhi: <br> <textarea></textarea></td>
-		</tr>
-		<tr>
-			<td class="border"><a href="#">Link 4</a></td>
-		</tr>
-		<tr>
-			<td class="border"><a href="#">Link 5</a></td>
-		</tr>
-		<tr>
-			<td class="border"><a href="#">Link 6</a></td>
-		</tr>
-		<tr>
-			<td class="border"><a href="#">Link 7</a></td>
-			<td>RSS Feed mund të gjendet <a href="#">këtu</a></td>
-			<td>
-				<form>
-					<input type="submit" name="submit" value="Dërgo">
-
-					<input type="reset" name="reset" value="Reseto">
-				</form>
-			</td>
-		</tr>
-	</tbody>
-	</table>
-	<div id="s1">
-	 <p class="fl-left">Copyright &copy; 2013 <a href="https://www.os-templates.com/" class="a1">Domain Name</a> - All Rights Reserved</p>
-		<p class="fl-right">Template by <a href="https://www.os-templates.com/" class="a1" title="Free Website Templates">OS Templates</a></p>
-	</div>
-	</footer>
+    </footer>
 
 	</body>
 	</html>
