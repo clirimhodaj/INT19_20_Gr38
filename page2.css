@@ -23,6 +23,7 @@ h1{
   -1px 1px 0 #000,
   1px 1px 0 #000;
   word-wrap: break-word;
+  display: inline;
 }
 img:hover {
   -webkit-transform: scaleX(-1);
