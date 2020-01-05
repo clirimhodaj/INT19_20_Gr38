@@ -21,21 +21,21 @@
 
 
 .morning {
-  background-image: url(page5/background1.jpg); /* Change the url of the image */
+  background-image: url("page5/background1.jpg"); 
   background-repeat: no-repeat;
   width: 100%;
   align-self: center;
 }
 
 .afternoon {
-  background-image: url(page5/background2.jpg); /* Change the url of the image */
+  background-image: url("page5/background2.jpg"); 
   background-repeat: no-repeat;
   width: 100%;
   align-self: center;
 }
 
 .evening {
-  background-image: url(page5/background3.jpg); /* Change the url of the image */
+  background-image: url("page5/background3.jpg");
   background-repeat: no-repeat;
    width: 100%;
 
