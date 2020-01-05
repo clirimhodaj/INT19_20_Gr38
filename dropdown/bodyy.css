@@ -1,5 +1,4 @@
 /*servis i tel dhe pc*/
-
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
 
 
@@ -40,11 +39,14 @@
   font-family: Montserrat;
   margin-bottom: 10px;
 }
+.close:hover{
+  background: #2e8ad1;
+}
 
 #sone{
   padding: 12em 0 12em 0;
   height: 300px;
-  background-image: url(apple_processor_cpu_wood_iron_30915_2560x1080.jpg);
+/*  background-image: url(apple_processor_cpu_wood_iron_30915_2560x1080.jpg);*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -55,12 +57,14 @@
 }
 
 
+
+
 #sone h1{
   font-size: 350%;
   text-align: center;
   color: white;
-  position: relative;
   font-family: "Gill Sans", sans-serif;
+  text-shadow: 2px 2px black;
   margin-bottom: 24px;
 }
 
@@ -68,9 +72,11 @@
   font-size: 1.25em;
   margin-bottom: 1.75em;
   text-align: center;
+  font-family: Montserrat;
   color: white;
   margin-bottom: 50px;
 }
+
 
 
 .button1{
@@ -78,7 +84,7 @@ text-align: center;
 color: white;
 font-size: 125%;
 text-transform: uppercase;
-font-family: serif;
+font-family: "Montserrat";
 border: solid 1.2px;
 border-radius: 10px 10px 10px 10px;
 border-color: white;
@@ -118,6 +124,8 @@ ul.actions li{
   }
 }
 
+
+
 #stwo{
   height: 500px;
   background: #D3D2D9;
@@ -139,6 +147,7 @@ ul.actions li{
   100%{background: #FD8079;}
 }
 
+
 div.box
 {
   width: 25%;
@@ -146,7 +155,6 @@ div.box
   margin-top: 80px;
   padding-left: 40px;
   text-align: center;
-
 }
 
   .box h3
@@ -162,9 +170,15 @@ div.box
 
 .box p
 {
+/*  font-family: "Open Sans", Arial, Helvetica, sans-serif;*/
   font-family: FontiIm;
   color: #44413D;
   margin-bottom: 15px;
+}
+
+@font-face {
+ font-family: FontiIm;
+ src: url(fontawesome-webfont.eot);
 }
 
   .box img
@@ -203,15 +217,11 @@ div.box
     background: #fff;
   }
 
-@font-face {
- font-family: FontiIm;
- src: url(fontawesome-webfont.eot);
-}
 
   #sthree{
-    background :linear-gradient(to right,#BF95CB, #44294B) ;
-
+    background :linear-gradient(to right,#BF95CB, #44294B) ;/*#263B47*//*#E84921*/
   }
+
 .box1{
   color: white;
   padding-bottom: 80px;
@@ -240,7 +250,6 @@ div.box
   font-style: normal;
 }
 
-
  cite.author {
   font-size: 1.2em;
   font-weight: 400;
@@ -257,4 +266,3 @@ cite.company {
   transform: rotateX(360deg);
   transition: 3s;
 }
-
