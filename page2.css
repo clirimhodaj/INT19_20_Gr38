@@ -22,6 +22,7 @@ h1{
   1px -1px 0 #000,
   -1px 1px 0 #000,
   1px 1px 0 #000;
+  word-wrap: break-word;
 }
 img:hover {
   -webkit-transform: scaleX(-1);
@@ -63,6 +64,8 @@ img:hover {
   color: black;
 }
 
-.img-wrap{
-
+button{
+  font-weight: bold;
+  background-color: black;
+  color: gray;
 }

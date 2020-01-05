@@ -8,7 +8,15 @@
 	<link rel="stylesheet" href="page2.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="jquery-1.11.2.min.js"></script>
+	<script src="jquery-1.11.2.min.js"></script><script>
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("video").hide("slow", function(){
+        alert("The paragraph is now hidden");
+      });
+    });
+  });
+  </script>
 	<script>
 	$(document).ready(function(){
 	  $("#flip").click(function(){
@@ -47,7 +55,7 @@ $(document).ready(function(){
 </style>
 </head>
 <body>
-	<div id="flip">Kliko per ta hapur panelin MENUN</div>
+	<div id="flip">Kliko për të hapur panelin MENU</div>
 <header>
 <div class="" style="background-color: #333333; height: 35px;">
 
@@ -67,7 +75,7 @@ $(document).ready(function(){
 	<nav>
 		<ul>
 			<li><a href="index.html">HOMEPAGE</a></li>
-			<li><a href="page2.html">STYLE DEMO</a></li>
+			<li><a href="page2.html">DOWNLOAD</a></li>
 			<li><a href="page3.html">APP SHOWCASE</a></li>
 			<li><a href="page4.html">DROPDOWN</a></li>
 			<li><a href="page5.html">LINK TEXT</a></li>
@@ -91,21 +99,20 @@ $(document).ready(function(){
 </div>
 <div class="col-sm-5">
 <h1>Si ta downloadojmë këtë APP?</h1>
-<p5>Step 1:<br>
+<p5>Hapi 1:<br>
 	Duhet të keni një celular të menqur, me sistem operativ IOS ose Android!<br>
-Step 2:<br>
+Hapi 2:<br>
 Duhet të keni çasje në internet 3G,4G apo WIFI!<br>
-Step 3:<br>
+Hapi 3:<br>
 Të klikoni në App Store(për Iphone) dhe Google Play(për Android).<br>
-Step 4:<br>
-Të shkoni në hapësirën SEARCH dhe të kërkoni APP-Team pastaj shtyp butonin Download!<br></p5>
+Hapi 4:<br>
+Të shkoni në hapësirën SEARCH dhe të kërkoni APP-Team pastaj shtyp butonin Download!</p5>
+<p2><button>Fshihe videon</button><p2><br>
 <a href="https://www.apple.com/ios/app-store/"><img src="appstore.png"></a>
 <a href="https://play.google.com/store/apps"><img src="googleplay.png"></a>
 </div>
 </div>
 </section>
-
-
 
 	<footer>
 	<table class="lastTable">
@@ -132,7 +139,10 @@ Të shkoni në hapësirën SEARCH dhe të kërkoni APP-Team pastaj shtyp butonin
 			</tr>
 			<tr>
 				<td class="border"><a href="#">Link 3</a></td>
-				<td rowspan="4" colspan="2">Mesazhi: <br> <textarea></textarea></td>
+				<td rowspan="4" colspan="2">Mesazhi: <br> <textarea></textarea>
+					<embed src="audio.mp3"
+									align="baseline" border="0" width="100"
+					       height="50" autostart="true" loop="true" style="border-radius:25px"></td>
 			</tr>
 			<tr>
 				<td class="border"><a href="#">Link 4</a></td>
@@ -149,7 +159,6 @@ Të shkoni në hapësirën SEARCH dhe të kërkoni APP-Team pastaj shtyp butonin
 				<td>
 					<form>
 						<input type="submit" name="submit" value="Dërgo">
-
 						<input type="reset" name="reset" value="Reseto">
 					</form>
 				</td>
@@ -158,7 +167,19 @@ Të shkoni në hapësirën SEARCH dhe të kërkoni APP-Team pastaj shtyp butonin
 	</table>
 	<div id="s1">
 		 <p class="fl-left">Copyright &copy; 2013 <a href="https://www.os-templates.com/" class="a1">Domain Name</a> - All Rights Reserved</p>
-	    <p class="fl-right">Template by <a href="https://www.os-templates.com/" class="a1" title="Free Website Templates">OS Templates</a></p>
+	    <p class="fl-right">Template by <a href="https://www.os-templates.com/" class="a1" title="Free Website Templates">OS Templates    </a><button onclick="myLocation()">Kliko këtu për të parë lokacionin e zyrës tonë! </button>
+			<p6 id="myloc"></p6>
+			<script type="text/javascript">
+			var loc=document.getElementById('myloc');
+			function myLocation(){
+				if(navigator.geolocation){
+					navigator.geolocation.getCurrentPosition(showPosition);
+				}else{
+					loc.innerHTML="Jo e mundshme!";
+				}
+				}
+				function showPosition(position){
+					loc.innerHTML="Longitude: " + position.coords.longitude + " - Latitude: " + position.coords.latitude}</script></p>
 	</div>
 	</footer>
 
