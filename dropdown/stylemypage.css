@@ -4,8 +4,8 @@ ul ul{
   visibility: hidden;
   opacity: 0;
   transition: 0.3s;
-
 }
+
 ul ul li a{
   font-size: 25px;
   text-decoration: none;
@@ -24,14 +24,15 @@ ul ul li:first-child{
   border-top: solid 1px #aaaaaa;
 
 }
+
 ul li:hover ul {
   background: #222222;
-  display: block;
   visibility: visible;
+  display: block;
   opacity: 1;
-  transition: 0.5s;
   margin-left: -5px;
   margin-top: 19.5px;
+  transition: 0.5s;
 }
 
 nav>ul>li{
