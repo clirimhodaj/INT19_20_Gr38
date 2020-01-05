@@ -14,10 +14,22 @@ p.parag9{
   font-size: 32px;
   font-family: sans-serif;
   padding-left: 1.1em;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.div4{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+
 }
 
 .boxx{
-padding-left: 1em;
+
+padding-left: 2em;
 float: left;
 width: 28%;
 padding-right: 1.5em;
@@ -34,35 +46,27 @@ min-height: 340px;
 margin: 0;
  }
 
-.fa {
-    padding: 25px;
-    font-size: 22px;
+ .boxx ul {
+   margin-left: 35px;
+
+ }
+
+
+.fab {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 40px;
     width: 25px;
     text-align: center;
     text-decoration: none;
     margin: 5px 10px;
-    border-radius: 48%;
-    background: #262729;
-}
+    margin-right: 45px;
+    }
 
-.fa-facebook {
-    background: #262729;
-  color: white;}
-
-.fa-tumblr {
-    background: #262729;
-    color: white;
-}
-
-.fa-linkedin {
-  background: #262729;
-    color: white;
-}
 div#s1{
   color: white;
   height: 40px;
-  font-size: 13px;
-}
+  font-size: 13px;}
 a.a1{
 
   text-decoration: none;
@@ -77,9 +81,11 @@ a.a2{
 .fl-left{
   float: left;
   padding-left: 1em;
+
 }
 
 .fl-right{
   float: right;
   padding-right: 1em;
+
 }
