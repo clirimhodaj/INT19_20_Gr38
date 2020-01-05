@@ -1,0 +1,324 @@
+header
+{
+	background-color: #24221C;
+}
+
+header p
+{
+	background-color: #24221C;
+	color: white;
+}
+
+header form
+{
+	text-align: right;
+	align-self: right;
+}
+input[type=search]
+{
+	border: 1px solid #3e3e3e;
+	border-radius: 10px;
+  width: 250px;
+	background-color:#3E3E3E;
+	color:#aaaaaa;
+	padding: 8px;
+}
+input[placeholder]
+{
+	color: white;
+}
+button[type=search]
+{
+border:1px solid ;
+padding: 0;
+position: absolute;
+top: 5px;
+right: 30px;
+}
+
+header h1
+{
+	background-color: white;
+	font-size: 100px;
+	font-weight: normal;
+	text-align: center;
+  color: #969845;
+  margin: 0 0 0 0;
+  padding: 10px 0 0 0;
+}
+
+header h5
+{
+	background-color: white;
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	margin: 0 0 0 0;
+	padding: 0px 0 19px 0;
+}
+
+#nav
+{
+	background-color: #222222;
+	font-size: 1em;
+	text-align: center;
+	padding: 1em 0 1em 0;
+	display: none;
+
+}
+
+nav ul
+{
+    text-align: center;
+    margin: 5px;
+	 	height: auto;
+}
+
+nav ul li
+{
+  list-style: none;
+	display: inline;
+	font-family: "Times New Roman";
+}
+
+nav ul li:first-child
+{
+
+
+}
+
+header a
+{
+	color: #aaaaaa;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 1.3em;
+	border-right: solid 1px #aaaaaa;
+}
+
+header a:first
+{
+	border-left: solid 1px #aaaaaa;
+}
+
+
+header a:hover
+{
+	color: #969845;
+}
+
+ul ul{
+  position: absolute;
+  min-width: 190px;
+  display: none;
+
+}
+ul ul li a{
+  font-size: 25px;
+  text-decoration: none;
+  color: #aaaaaa;
+  padding: 5px;
+
+}
+ul ul li a:hover{
+  color: #969845;
+}
+ul ul li{
+  display: block;
+  border-bottom: solid 1px #aaaaaa;
+}
+ul ul li:first-child{
+  border-top: solid 1px #aaaaaa;
+
+}
+ul li:hover ul {
+  background: #222222;
+  display: block;
+  margin-left: -5px;
+  margin-top: 19.5px;
+}
+
+nav>ul>li{
+display: inline-block;
+}
+ul li i{
+  padding-left: 10px;
+}
+.img-wrap{width: 100%}
+.img-wrap img{width: 100%;padding: 10px;}
+#aboutus h2 {color: white;}
+#aboutus p {color: white;}
+#aboutus li {color: white;}
+section
+{
+	min-height: 490px;
+	background-color: #0D0D0D;
+}
+section h1
+{
+	color: #FFFFFF;
+	font-size: 55px;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 30px;
+
+}
+aside#side
+{
+	color: #FFFFFF;
+	float: right;
+	width: 20%;
+	font-size: 200%;
+	font-family: "Times New Roman", serif;
+	padding-right: 350px;
+	padding-top: 10px;
+}
+span#viti
+{
+	color: #969845;
+}
+
+section#art
+{
+
+background-color: white;
+padding: 30px 30px 30px 30px;
+
+margin: 0 30px 60px 30px;
+
+}
+
+.box h2{
+font-size: 200%;
+font-family: serif;
+font-weight: bold;
+color: #797979;
+border-bottom: solid 1px #CDCDCD;
+}
+
+.box{
+padding-left: 2em;
+float: left;
+width: 30%;
+
+}
+.box ul li{
+color: #969845;
+list-style-type: none;
+}
+li:before
+{
+	content: "\000BB ";
+}
+.box p{
+
+	font-family: Palatino, URW Palladio L, serif	;
+	color: #979797;
+	font-size: 110%;
+}
+
+.button1{
+	color: #a2a651;
+	background-color: #b0b3a2;
+	border-radius: 10px;
+	font-size: 140%;
+	float: right;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 10px 10px 10px ;
+}
+
+#little{
+	background-color: #aed14d;
+	color: white;
+	float: right;
+	width: 400px;
+	height: 100px;
+	margin-top: -200px;
+	margin-right: 40px;
+	padding: 25px 20px 0 20px;
+	border-radius: 20px;
+	box-shadow: 0 60px 10px -40px grey;
+}
+
+#little a{
+	text-decoration: none;
+	color: white;
+	font-size: 29px;
+}
+
+#little img{
+	width: 55px;
+	height: 85px;
+	float: left;
+	padding-right: 40px;
+}
+table.lastTable
+{
+
+	background-color:  #24221C;
+	text-align: left;
+	width: 100%;
+
+
+
+}
+
+table.lastTable thead td
+{
+	font-size: 30px;
+	font-family: New Times Roman;
+	color: white;
+	padding: 0 2em 0 0.7em;
+}
+
+table.lastTable tbody td{
+color: white;
+padding: 0 2em 0 1.5em;}
+
+table.lastTable tbody a{
+	color: #94741C;
+	text-decoration: none;
+
+}
+
+.border{
+	border-bottom: solid 1px;
+
+
+}
+div#s1{
+	background-color: #080808;
+	color: white;
+	height: 40px;
+	font-size: 13px;
+
+
+}
+
+a.a1{
+
+	text-decoration: none;
+	color: white;
+
+}
+a.a2{
+	text-decoration: none;
+	color:#94741C;
+}
+
+
+
+.fl-left{
+	float: left;
+	padding-left: 1em;
+
+}
+
+
+
+.fl-right{
+	float: right;
+	padding-right: 1em;
+
+}
