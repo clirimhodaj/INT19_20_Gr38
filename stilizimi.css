@@ -147,6 +147,7 @@ ul li i{
 section
 {
 	background-color: #0D0D0D;
+	min-height: 490px;
 }
 section h1
 {
