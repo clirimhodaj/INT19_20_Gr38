@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Team App</title>
-	<link rel="stylesheet"  href="stilizimi.css">
+	<link rel="stylesheet"  href="stilizimi3.css">
 	<link rel="stylesheet" href="risetimi.css">
 	<link rel="stylesheet" href="text.css">
 	<link rel="stylesheet" href="footer.css">
@@ -24,6 +24,7 @@ $(document).ready(function(){
   });
 });
 	</script>
+
 	<style>
 	#panel,#flip
 	{
@@ -75,11 +76,19 @@ function myFunction() {
 <div id="nav">
 	<nav>
 		<ul>
-			<li><a href="index.html">HOMEPAGE</a></li>
-			<li><a href="page2.html">STYLE DEMO</a></li>
+			<li><a href="index.html">BALLINA</a></li>
+			<li><a href="page2.html">SHKARKIMI</a></li>
 			<li><a href="page3.html">APP SHOWCASE</a></li>
-			<li><a href="page4.html">DROPDOWN</a></li>
-			<li><a href="page5.html">LINK TEXT</a></li>
+			<li><a href="dropdown.html">SERVISI<i class="fas fa-caret-down"></i></a>
+				<ul>
+					<li><a href="dropdown.html#sone">Link 1</a></li>
+					<li><a href="dropdown.html#stwo">Link 2</a></li>
+					<li><a href="dropdown.html#sthree">Link 3</a></li>
+					<li><a href="#">Link 4</a></li>
+				</ul>
+			</li>
+
+			<li><a href="about.html">ABOUT</a></li>
 		</ul>
 	</nav>
 </div>
@@ -183,6 +192,7 @@ function myFunction() {
 				<h3 style="margin-left:200px;">Zhvendos Hockey me Hockeey</h3>
 
 				<button style="margin-left:20px;" onclick="myFunction()">Provo</button>
+				<a style="margin-left:20px; padding:2px 20px;background:blue;color:white;" href="blejaplikacionin.html">Blej aplikacionin</a>
 		</div>
 	</div>
 
@@ -250,8 +260,8 @@ function myFunction() {
               }
             }
           </script>
-    			<td><input id="submit"   onclick="validateForm()" type="submit" name="submit" value="Dergo" style="width: 80px; height: 23px;"></td>
-    			<td><input id="reset"  type="reset" name="reset" value="Reseto" style="width: 80px; height: 23px;"></td>
+					<td><input id="submit"   onclick="validateForm()" type="submit" name="submit" value="Dergo" style="width: 80px; height: 23px; background:#524e46; color:#cdff8f;border:0"></td>
+					<td><input id="reset"  type="reset" name="reset" value="Reseto" style="width: 80px; height: 23px; background:#524e46; color:#cdff8f;border:0"></td>
     		</tr>
 
     	</table>
