@@ -32,8 +32,8 @@ button[type=search]
 border:1px solid ;
 padding: 0;
 position: absolute;
-top: 5px;
 right: 30px;
+
 }
 
 header h1
@@ -144,11 +144,6 @@ display: inline-block;
 ul li i{
   padding-left: 10px;
 }
-.img-wrap{width: 100%}
-.img-wrap img{width: 100%;padding: 10px;}
-#aboutus h2 {color: white;}
-#aboutus p {color: white;}
-#aboutus li {color: white;}
 section
 {
 	min-height: 490px;
