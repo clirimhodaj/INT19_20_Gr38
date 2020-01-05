@@ -1,3 +1,8 @@
+#svg
+{
+position: absolute;
+}
+
 header
 {
 	background-color: #24221C;
@@ -38,28 +43,6 @@ top: 5px;
 right: 30px;
 }
 
-/*
-header h1
-{
-	background-color: white;
-	font-size: 100px;
-	font-weight: normal;
-	text-align: center;
-  color: #969845;
-  margin: 0 0 0 0;
-  padding: 10px 0 0 0;
-}
-
-header h5
-{
-	background-color: white;
-	font-size: 15px;
-	text-align: center;
-	color: black;
-	margin: 0 0 0 0;
-	padding: 0px 0 19px 0;
-}
-*/
 #nav
 {
   background-color: #222222;
