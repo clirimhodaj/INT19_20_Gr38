@@ -149,6 +149,9 @@ section
 	background-color: #0D0D0D;
 	min-height: 490px;
 }
+.secclass{
+	min-height: inherit;
+}
 section h1
 {
 	color: #FFFFFF;
