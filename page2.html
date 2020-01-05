@@ -61,7 +61,16 @@ $(document).ready(function(){
 <div class="" style="background-color: #333333; height: 35px;">
 
 
-		<p style="float: left; padding-top: 7px; background-color: #333333; color:#676767;  ">Tel: xxxxx xxxxxxx  | Mail: info@domain.com
+		<p style="float: left; padding-top: 7px; background-color: #333333; color:#676767;  ">Tel: xxxxx xxxxxxx  | Mail: info@domain.com | <div id="result" display="inline"></div>
+
+ <script>
+ if (typeof(Storage) !== "undefined") {
+   sessionStorage.setItem("mbiemri", " Kukaj ");
+   document.getElementById("result").innerHTML = sessionStorage.getItem("lastname");
+ } else {
+   document.getElementById("result").innerHTML = "Me falni por nuk punon!";
+ }
+ </script>
 		</p>
 		<form style="margin-right: 3px;">
 			<input type="search" name="search" placeholder="SEARCH TERM HERE"><button display="inline"><img src="search.jpg" width="20px" height="10px"></button>
@@ -77,8 +86,8 @@ $(document).ready(function(){
 			<li><a href="index.html">BALLINA</a></li>
 			<li><a href="page2.html">SHKARKIMI</a></li>
 			<li><a href="page3.html">APP SHOWCASE</a></li>
-			<li><a href="page4.html">SERVISIMI</a></li>
-			<li><a href="page5.html">RRETH NESH</a></li>
+			<li><a href="dropdown.html">SERVISIMI</a></li>
+			<li><a href="about.html">RRETH NESH</a></li>
 		</ul>
 	</nav>
 </div>
