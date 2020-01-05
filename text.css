@@ -5,10 +5,27 @@
 .app-description { max-width: 700px; position: relative; margin: 0 auto; padding: 0; }
 .app-description__header { display: flex; align-content: flex-end; }
 .app-description__header img { margin-right: 24px; }
-.app-description__header > div:last-child { align-self: flex-end; }
 .app-description__title { font-size: 1.875rem; margin: 0; }
 @media (min-width: 480px) { .app-list { -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; padding: 0 0 100px 0; }
-.app-filter { display: inline-block; }
+.page-content{
+  padding-bottom:30px;
+  width:100%;
+  heightl:300px;
+  background-color: white;
+  background-image: url(team-app.jpg),url(team-app1.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom left,bottom right;
+
+
+}
+
+a{
+  text-decoration: none;
+  color: red;
+}
+a:hover{
+  color:black;
+}
 
 .subheader {
     background: #3e3e3e;
@@ -57,10 +74,10 @@
     max-width: 420px;
 }
 
+
 body {
     font-family: "adobe-clean",Helvetica,Arial,sans-serif;
     color: #033351;
     line-height: 1.75rem;
     -webkit-font-smoothing: antialiased;
-    padding-top: 60px;
 }
