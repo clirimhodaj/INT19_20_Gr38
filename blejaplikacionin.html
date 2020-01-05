@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <title>Porosit aplikacionin</title>
+    <script type="text/javascript" src="test3.js"></script>
+    
+</head>
+<body onload='hideTotal()'>
+
+	<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+    <div id="wrap">
+        <form action="" id="aplikacionizgjedhur" onsubmit="return false;">
+        <div>
+            <div class="cont_order">
+               <fieldset>
+                <legend>Bleje aplikacionin</legend>
+                <label >Zgjidh aplikacionin</label><br>
+                <label class='radiolabel'><input type="radio"  name="aplikacioniselektuar" value="Aplikacioni1" onclick="calculateTotal()" />Aplikacioni 1 ($100)</label><br/>
+                <label class='radiolabel'><input type="radio"  name="aplikacioniselektuar" value="Aplikacioni2" onclick="calculateTotal()" />Aplikacioni 2 ($130)</label><br/>
+                <label class='radiolabel'><input type="radio"  name="aplikacioniselektuar" value="Aplikacioni3" onclick="calculateTotal()" />Aplikacioni 3 ($80)</label><br/>
+                <label class='radiolabel'><input type="radio"  name="aplikacioniselektuar" value="Aplikacioni4" onclick="calculateTotal()" />Aplikacioni 4 ($180)</label><br/>
+                <br/>
+                <label >Paketa</label>
+         
+                <select id="paketa" name='paketa' onchange="calculateTotal()">
+                <option value="None">Zgjedh paketen</option>
+                <option value="Premium">Premium($5)</option>
+                <option value="Super Premium">Super Premium($7)</option>
+            	<option value="VIP">VIP($10)</option>
+               </select>
+                <br/>
+                <p>
+                <label for='perfshimirmbajtjen' class="inlinelabel">Perfshi mirembajtjen($20)</label>
+               <input type="checkbox" id="perfshimirmbajtjen" name='perfshimirmbajtjen' onclick="calculateTotal()" />
+               </p>
+               
+                
+                <div id="totalCmimi"></div>
+                
+                </fieldset>
+            </div>
+            
+        	
+	</div><!--End of wrap-->
+
+</body>
+</html>
