@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="result"></div>
+
+<script>
+if (typeof(Storage) !== "undefined") {
+  sessionStorage.setItem("lastname", "Kukaj");
+  document.getElementById("result").innerHTML = sessionStorage.getItem("lastname");
+} else {
+  document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+}
+</script>
+<script>
+function clickCounter() {
+  if(typeof(Storage) !== "undefined") {
+    if (sessionStorage.clickcount) {
+      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+    } else {
+      sessionStorage.clickcount = 1;
+    }
+    document.getElementById("resultt").innerHTML = "Kete button e keni shtypur " + sessionStorage.clickcount + " here!";
+  } else {
+    document.getElementById("resultt").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script>
+<p><button onclick="clickCounter()" type="button">Me shtyp shpejt!</button></p>
+<div id="resultt"></div>
+
+</body>
+</html>
