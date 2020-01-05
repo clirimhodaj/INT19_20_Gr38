@@ -301,6 +301,9 @@ a.a1{
 	color: white;
 
 }
+a.a1:hover{
+  color:blue;
+}
 a.a2{
 	text-decoration: none;
 	color:#94741C;
